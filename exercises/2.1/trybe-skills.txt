@@ -7,3 +7,5 @@ O que eu vou aprender na Trybe:
 - Css
 - JavaScript
 - Aprender desenvolvimento web
+- React
+- Python
