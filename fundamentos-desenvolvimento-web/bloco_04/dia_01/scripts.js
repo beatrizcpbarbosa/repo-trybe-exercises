@@ -124,11 +124,15 @@ let custoProduto = 10;
 let valorVenda = 20;
 let imposto = custoProduto * 0.2;
 let valorCustoTotal = custoProduto + imposto;
-let lucro = valorVenda - valorCustoTotal;
+let lucro = valorVenda - valorCustoTotal
+let lucroTotal;
 
-if ( lucroTotal = lucro * 1000) {
-  console.log('o lucro é')
-}
+if ( custoProduto > 0 && valorVenda > 0) {
+  lucroTotal = lucro * 1000;
+  console.log('o lucro é' + lucroTotal)
+} else {
+  console.log('erro')
+  }
 
 // exercicio 11
 
