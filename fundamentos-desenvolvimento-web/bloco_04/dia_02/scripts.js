@@ -31,14 +31,14 @@ if ( mediaAritimetica > 20){
 
 // exercicio 5
 
-let valorMaximo;
+
+let valorMaximo = 0;
 
 for (index = 0; index < numbers.length; index =+ 1){
    if (numbers[index] > valorMaximo) {
     valorMaximo = numbers [index];
    }
 }
-// ???
 
 // exercicio 6 
 
@@ -56,6 +56,34 @@ for (index = 0; index < numbers.length; index =+ 1){
      console.log(valorImpar)
  }
 
- //
+ // exercicio 7
 
+ let valorMinimo = 1000;
+
+for (index = 0; index < numbers.length; index =+ 1){
+   if (numbers[index] < valorMinimo) {
+    valorMinimo = numbers [index];
+   }
+}
+
+// exercicio 8 
+
+let numbers2 = [];
+
+for (index2 = 1; index2 <= 25; index2 +=1) {
+    numbers.push(index2);
+}
+
+console.log(numbers2);
+
+
+// exercicio 9
+
+let divisao;
+
+for (index3 = 0; index3 < numbers2.length; index3 += 1){
+    divisao = numbers2[index3]/2;
+}
+
+console.log(divisao)
 
