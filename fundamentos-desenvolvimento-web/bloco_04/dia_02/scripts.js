@@ -29,3 +29,33 @@ if ( mediaAritimetica > 20){
     console.log('valor menor ou igual a 20')
 }
 
+// exercicio 5
+
+let valorMaximo;
+
+for (index = 0; index < numbers.length; index =+ 1){
+   if (numbers[index] > valorMaximo) {
+    valorMaximo = numbers [index];
+   }
+}
+// ???
+
+// exercicio 6 
+
+let valorImpar = 0;
+
+for (index = 0; index < numbers.length; index =+ 1){
+    if (numbers[index] %2 !== 0) {
+        valorImpar +=1
+    } 
+ }
+ 
+ if (valorImpar === 0){
+     console.log('nenhum valor impar encontrado');
+ } else {
+     console.log(valorImpar)
+ }
+
+ //
+
+
