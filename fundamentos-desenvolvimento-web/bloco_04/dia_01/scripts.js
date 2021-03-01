@@ -21,6 +21,7 @@ let modulo = b % a;
 
 // exercicio 2
 
+
 if (a > b) {
     console.log('a é maior')
 } else if (b > a) {
