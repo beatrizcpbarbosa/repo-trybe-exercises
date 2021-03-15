@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+<html>
+  <head lang="pt-br">
+      <title> Titudo da Pagina </title>
+      <meta charset="UFT-8"> 
+      <link rel="stylesheet" type="text/css" href="style.css"> 
+  </head>
+
+  <body>
+    <form action='' method='get' enctype='multipart/form-data' id='form'> 
+
+
+        <fieldset>
+
+            <label for='input-text-name'>Nome</label>
+            <input type='text' placeholder='digite seu nome' maxlength='40' name='texto' required value='' id='input-text-name'>
+            <br>
+
+            <label for='input-text-email'>Email</label>
+            <input type='email' placeholder='digite seu email' maxlength='50' name='texto' required value='' id='input-text-email'>
+            <br>
+
+            <label for='input-number-cpf'>CPF</label>
+            <input type='number' placeholder='digite seu cpf' maxlength='11' name='texto' required value='' id='input-number-cpf'>
+            <br>
+
+            <label for='input-endereco'>Endereço</label>
+            <input type='email' placeholder='digite seu endereço' maxlength='200' name='endereço' required value='' id='input-endereco'>
+            <br>
+
+            </label for='input-text-cidade'>Cidade</label>
+            <input type='text' placeholder='digite sua cidade' name='texto' required maxlength='28' value='' id='input-text-cidade'>
+            <br>
+
+            </label for='estado'>Estado</label>
+            <select id="estado"> 
+            </select>
+            <br>
+               
+            <p>Moradia</p>
+            </label for='moradia'>Casa</label>
+            <input type='radio' name='tipo' id="moradia">
+            </label for='moradia'>Apartamento</label>
+            <input type='radio' name='tipo' id="moradia">
+            </label for='moradia'>Outro</label>
+            <input type='radio' name='tipo' id="moradia">
+
+        </fieldset>
+
+        <fieldset>
+
+            </label for='input-text-cidade'>Resumo do curriculo</label>
+            <textarea cols='30' rows='5' required maxlength='1000'id="input-textarea"></textarea> 
+            <br>
+
+            <label for='input-text-cargo'>Cargo</label>
+            <input type='text' placeholder='digite seu cargo' name='cargo' required  maxlength='500' value='' id='input-text-cargo'>
+            <br>
+
+            <label for='input-text-descricao-cargo'>Descrição Cargo</label>
+            <input type='text' placeholder='digite descrição do cargo' name='descricao-cargo' required value='' id='input-text-descricao-cargo'>
+            <br>
+
+            <label for='input-text-data'>Data inicio</label>
+            <input type='date' name='data' required value='' id='input-text-data'>
+            <br>
+
+        </fieldset>
+
+        <button type="submit" id="criar-tarefa">Enviar</button>
+
+        </form>
+
+    <script src="script.js"></script>
+  <body>
+</html> 
