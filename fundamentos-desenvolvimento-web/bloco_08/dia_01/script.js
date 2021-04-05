@@ -35,3 +35,17 @@ function checarNumber(meuNumero, numeroSorteado){
     }
 }
 
+// exercicio 3 
+function gabarito(correctAnswer) {
+    return (userAnswer) => {
+        if(correctAnswer === userAnswer){
+            return true
+        } else {
+            return false
+        }
+    }
+}
+
+const correctAnswer = 'higher order function';
+const userAnswer = 'HIGHER ORDER FUNCTION';
+
