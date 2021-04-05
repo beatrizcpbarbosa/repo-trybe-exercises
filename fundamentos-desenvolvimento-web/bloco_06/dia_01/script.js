@@ -14,3 +14,6 @@ function VerificaData (){
     
 }
 
+function stopForm(event) {
+  event.preventDefault();
+}

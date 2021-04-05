@@ -3,12 +3,17 @@
   <head lang="pt-br">
       <title> Titudo da Pagina </title>
       <meta charset="UFT-8"> 
-      <link rel="stylesheet" type="text/css" href="style.css"> 
+      <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css"> 
   </head>
 
   <body>
-    <form action='' method='get' enctype='multipart/form-data' id='form'> 
 
+    <header class="container is-medium">
+      <h1 class="title">Formulario</h1>
+      <p class="subtitle">esse é um formulario de teste</p>
+    </header>
+
+    <form action='' method='get' enctype='multipart/form-data' id='form'> 
 
         <fieldset>
 
@@ -68,8 +73,9 @@
         </fieldset>
 
         <button type="submit" id="criar-tarefa">Enviar</button>
+        <button type="reset" id="criar-tarefa">Limpar</button>
 
-        </form>
+    </form>
 
     <script src="script.js"></script>
   <body>
