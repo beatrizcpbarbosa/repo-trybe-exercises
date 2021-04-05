@@ -16,4 +16,22 @@ const newEmployees = (geraremail) => {
     };
   }
 
-// exercicio 1
+// exercicio 2
+const sorteio = (meuNumero, checarNumber) => {
+   let numeroSorteado = Math.floor(math,random() * 5);
+
+   if (checarNumber(numeroSorteado, meuNumero) === true){
+       return console.log("Parabéns você ganhou");
+   } else {
+        return console.log("Tente novamente");
+   }
+};
+
+function checarNumber(meuNumero, numeroSorteado){
+    if(meuNumero === numeroSorteado){
+     return true
+    } else {
+     return false
+    }
+}
+
