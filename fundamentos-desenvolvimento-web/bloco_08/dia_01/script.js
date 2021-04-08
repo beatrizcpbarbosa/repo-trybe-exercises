@@ -20,7 +20,7 @@ const newEmployees = (geraremail) => {
 const sorteio = (meuNumero, checarNumber) => {
    let numeroSorteado = Math.floor(math,random() * 5);
 
-   if (checarNumber(numeroSorteado, meuNumero) === true){
+   if (checarNumber (meuNumero, numeroSorteado) === true){
        return console.log("Parabéns você ganhou");
    } else {
         return console.log("Tente novamente");
@@ -48,4 +48,29 @@ function gabarito(correctAnswer) {
 
 const correctAnswer = 'higher order function';
 const userAnswer = 'HIGHER ORDER FUNCTION';
+
+// exercicio 4
+const rightAnswers = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
+const studentAnswers = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
+
+
+const checar = (rightAnswers, studentAnswers) => {
+  totalPoints = 0;
+  for (let index = 0; index < rightAnswers; index += 1 ) {
+    if (studentAnswers[index] !== 'N.A') {
+      if (rightAnswers[index] === studentAnswers[index]) {
+        totalPoints += 1;
+      } else {
+        totalPoints -= 0.5;
+      }
+    }
+  }
+  return totalPoints;
+}
+
+const respostas = (rightAnswers, studentAnswers, checa) => {
+  return `Resultado final: ${checar(correctAnswers, userAnswers)} pontos.`;
+}
+
+
 
