@@ -24,13 +24,13 @@ for (let key in info){
 
 let info2 = {
     personagem: "Tio Patinhas",
-    origem: "Christmas on Bear Mountain, Dell's Four Color Comics #178";
+    origem: "Christmas on Bear Mountain, Dell's Four Color Comics #178",
     nota: "O último MacPatinhas",
     recorrente: "sim"
   };
 
   if (info['recorrente'] === info2['recorrente']){
-    info['recorrente'] && info2['recorrente'] = 'ambos recorrentes';
+    info['recorrente'] && info2['recorrente'] === 'ambos recorrentes';
   }
 
 
